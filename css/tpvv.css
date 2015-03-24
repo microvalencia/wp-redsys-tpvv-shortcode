@@ -1,0 +1,5 @@
+.tpvv { margin: 20px 0; }
+.tpvv label { display: block; margin-bottom: 10px; }
+.tpvv .g-recaptcha { margin: 40px 0 20px; }
+.tpvv label.condiciones { cursor: pointer; }
+.tpvv input[type="submit"] { margin-top: 20px; }
