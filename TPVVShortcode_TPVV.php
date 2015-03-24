@@ -41,7 +41,7 @@
 	    		<label for="email"><?=__('Email', 'tpvv-shortcode-plugin')?>: <input type="text" name="email" id="email"></label>
 	    		<div class="g-recaptcha" id="recaptcha_<?=$id?>"></div>
 	    		<label for="condiciones" class="condiciones"><input type="checkbox" name="condiciones" id="condiciones"> <?=__('He leido, comprendido y acepto las condiciones de compra y política de privacidad de este sítio web', 'tpvv-shortcode-plugin')?> - <a href="#"><?=__('Ver condiciones de venta y política de privacidad', 'tpvv-shortcode-plugin')?></a></label>
-	    		<input type="submit" name="pagar" value="<?=__('Pagar ahora', 'tpvv-shortcode-plugin')?>">
+	    		<div><input type="submit" name="pagar" value="<?=__('Pagar ahora', 'tpvv-shortcode-plugin')?>"> <img class="tarjetas" src="<?=plugins_url('img/visa_mastercard.jpg', __FILE__)?>"></div>
 	    		<input type="hidden" name="concepto" value="<?=$concepto?>">
 	    		<input type="hidden" name="importe" value="<?=$importe?>">
 	    		<input type="hidden" name="token" value="<?=md5($concepto.$importe.$opciones->getOption('TPVV_clave'))?>">
