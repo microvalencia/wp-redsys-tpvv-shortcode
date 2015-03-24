@@ -7,10 +7,10 @@ Basado en el código de ¿Michael Simpson? [http://plugin.michael-simpson.com/](
 
 Shortcode tpvv con dos parámetros, ambos obligatorios
 
+	[tpvv concepto="" importe=""]
+
 - concepto: Descripción de la operación que aparecerá en el formulario de compra y en la pantalla de confirmación de la misma.
 - importe: Importe total de la operación a cobrar, debe ser un número de hasta dos decimales sin separador de miles y utilizando el punto (.) como separador de decimales
-
-	[tpvv concepto="" importe=""]
 
 ### Ejemplo
 
