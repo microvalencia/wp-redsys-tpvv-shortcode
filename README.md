@@ -1,6 +1,6 @@
 # wp-redsys-tpvv-shortcode
 
-Estado: alpha
+Estado: pre-alpha
 
 Plugin para WordPress para insertar un formulario de pago [RedSys](http://www.redsys.es) sobre una entrada o página mediente un shortcode.
 Basado en el código de ¿Michael Simpson? [http://plugin.michael-simpson.com/](http://plugin.michael-simpson.com/)
